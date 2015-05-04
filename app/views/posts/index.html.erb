@@ -1,0 +1,13 @@
+<%= react_component('PostArea',
+                    { initialPosts: @posts, form: @form },
+                    { prerender: true } )%>
+
+<!--
+
+React.render("<PostArea initialPosts="#{@posts}" form="#{form}" />")
+
+||
+
+React.renderToString("<PostArea initialPosts="#{@posts}" form="#{form}" />")
+
+-->
